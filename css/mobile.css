@@ -247,8 +247,13 @@ footer p{
 .imagenFund{
     width: 200px;
     height: 200px;
+}
+.imagenFund img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-    border: 1px solid black;
 }
 .individuales h3,p{
     text-align: center;
