@@ -1,0 +1,40 @@
+// COLORES
+$purpura:#990033;
+$azul:#000033;
+
+// MIXIN
+@mixin anchoPantalla {
+    width: 100vw;
+    max-width: 1140px;
+}
+@mixin anchoAltoImagenes {
+    width: 100%;
+    height: 100%;
+}
+
+header, main, footer{
+    @include anchoPantalla();
+    margin:0 auto;
+}
+
+.equipoServicios__Titulo h2{
+    @include anchoPantalla();
+    background-color: $purpura;
+}
+
+.tituloSecciones{
+    @include anchoPantalla();
+    background-color: $purpura;
+}
+
+.tituloSecundario{
+    color: $azul;
+}
+
+.tarjetaServicios figure img{
+    @include anchoAltoImagenes();
+}
+
+.trabajosIndividuales img{
+    @include anchoAltoImagenes();
+}

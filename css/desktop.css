@@ -1,0 +1,125 @@
+/* ESTILOS GENERICOS */
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    transform: scale(1.2);
+}
+button:hover{
+    transform: scale(1.4);
+}
+
+/* ESTILOS PÁGINA PRINCIPAL */
+.navegacionLogo img{
+    width: 100px;
+}
+.navegacionLinks a{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.seccionFondos p{
+    font-size: 3.8rem;
+}
+
+.equipoServicios__Titulo h2{
+    height: 3.2rem;
+    padding-top: 5px;
+    font-size: 2rem;
+}
+.equipoServiciosFlex{
+    display: flex;
+}
+.equipoTextoDesktop{
+    order: 1;
+}
+.equipoImagenDesktop{
+    order: 2;
+}
+.equipoServicios__Imagen{
+    margin: 15px 25px;
+}
+.equipoServicios__Texto p{
+    width: 400px;
+    margin-top: 60px;
+    font-size: 2.5rem;
+}
+.equipoServicios__Texto ul{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.equipoServicios__Texto ul li{
+    font-size: 2rem;
+}
+
+.trabajosRealizados__Titulo h2{
+    height: 3.2rem;
+    padding-top: 5px;
+    font-size: 2rem;
+}
+.trabajosRealizados__Imagenes{
+    width: 90%;
+    margin: 10px auto;
+}
+.trabajosRealizados__Imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trabajosRealizados__Imagenes div{
+    width: 25%;
+    padding: 5px
+}
+
+.redesSoc picture{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.textoIzq p{
+    text-align: start;
+    padding-top: 0;
+}
+.textoDer p{
+    text-align: end;
+    padding-top: 0;
+}
+
+
+/* ESTILOS PÁGINA CONOCENOS */
+.historia p{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.fundadores{
+    margin-top: 20px;
+}
+.misionVisionValores div p{
+    font-size: 1.5rem;
+} 
+.tituloSecundario{
+    font-size: 2.1rem;
+}
+.individuales p{
+    font-size: 1.4rem;
+}
+
+
+/* ESTILOS PAGINA "NUESTROS TRABAJOS" */
+.nuestrosTrabajosInfo{
+    opacity: 0;
+}
+.trabajosIndividuales:hover .nuestrosTrabajosInfo{
+    opacity: 1;
+}
+
+
+/* ESTILOS PAGINA "NUESTROS TRABAJOS" */
+.contactoTexto{
+    margin: 25px auto;
+}

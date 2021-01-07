@@ -1,0 +1,363 @@
+/* ESTILOS GENERICOS */
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+}
+p, button{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+h1 h2 h3 h4 h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*COLORES
+PURPURA #990033
+AZUL #000033
+GRIS #333333
+FONDO GRIS #F2F2F2
+*/
+
+
+/* ESTILOS PÁGINA PRINCIPAL */
+
+/* Agregado en el archivo pruebacss.css
+header, main, footer{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+
+header{
+    position: sticky;
+    z-index: 15;
+    top: 0;
+}
+.navegacionLogo img{
+    width: 80px;
+}
+.navegacionLinks{
+    margin-right: 0;
+    margin-left: auto;
+}
+.navegacionLinks li{
+    padding: 0 5px;
+}
+.navegacionLinks a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.linksActivos:hover {
+    transform: scale(1.15);
+}
+.letraBlanca {
+    color: wheat;
+}
+
+.seccionPrincipal{
+    position: relative;
+    z-index: 5;
+}
+.seccionFondos{
+    position: relative;
+}
+.seccionFondos p{
+    position: absolute;
+    z-index: 10;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    width: 45%;
+    text-align: center;
+}
+.seccionFondos span {
+    color: #990033;
+}
+.parrafoImgDer{
+    top: 10%;
+    right: 5%;
+}
+.parrafoImgIzq{
+    top: 10%;
+    left: 5%;
+}
+
+.equipoServicios{
+    position: relative;
+    z-index: 2;
+    background-color: #f2f2f2;
+}
+.equipoServicios__Titulo{
+    width: 100%;
+}
+.equipoServicios__Titulo h2{
+    /* width: 100vw;
+    max-width: 1140px; */
+    height: 2.8rem;
+    padding-top: 4px;
+    font-size: 1.8rem;
+    text-align: center;
+    /* background-color: #990033; */
+    color: white;
+}
+.equipoServicios__Imagen{
+    width: 90%;
+    margin: 0 auto;
+}
+.equipoServicios__Imagen img{
+    width: 100%;
+}
+.equipoServicios__Texto{
+    width: 80%;
+    margin: 10px auto;
+}
+.equipoServicios__Texto p{
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 0 auto;
+}
+.equipoServicios__Texto li{
+    font-size: 1.4rem;
+}
+
+.trabajosRealizados{
+    position: relative;
+    z-index: 2;
+}
+.trabajosRealizados__Titulo{
+    width: 100%;
+}
+.trabajosRealizados h2{
+    width: 100vw;
+    max-width: 1140px;
+    height: 2.8rem;
+    padding-top: 4px;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #990033;
+    color: white;
+}
+.trabajosRealizados__Imagenes{
+    width: 80%;
+    margin: 10px auto;
+}
+.trabajosRealizados__Imagenes img{
+    width: 100%;
+    margin: 10px 0;
+}
+.trabajosRealizadosBoton{
+    width: 280px;
+}
+
+.redesSoc{
+    width: 90%;
+    margin: 25px auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.redesSoc picture{
+    width: 50px;
+}
+.redesSoc img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    background-color: #1b1b1b;
+    max-width: 1140px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 1.2rem;
+    color: wheat;
+}
+.textoIzq{
+    width: 40%;
+}
+.textoIzq p{
+    text-align: center;
+}
+.textoDer{
+    width: 40%;
+}
+.textoDer p{
+    text-align: center;
+}
+
+
+/* ESTILOS PÁGINA CONOCENOS */
+.tituloSecciones{
+    /* width: 100vw;
+    max-width: 1140px; */
+    height: 4rem;
+    padding-top: 8px;
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: #990033; */
+    color: white;
+}
+
+.historia,.serviciosGenerales{
+    width: 100vw;
+    max-width: 1140px;
+}
+.historia,.serviciosGenerales p{
+    width: 90%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.fundadores{
+    width: 100vw;
+    max-width: 1140px;
+}
+.tituloSecundario{
+    width: 100%;
+    height: 3.6rem;
+    padding-top: 8px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    /* color: #000033; */
+}
+
+.fundadoresInd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.individuales{
+    margin-bottom: 20px;
+}
+.imagenFund{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.individuales h3,p{
+    text-align: center;
+    margin: 5px auto;
+}
+
+.misionVisionValores{
+    width: 100vw;
+    max-width: 1140px;
+}
+.misionVisionValores div{
+    width: 90%;
+    margin: 15px 5%;
+
+}
+.misionVisionValores div p{
+    font-size: 1.2rem;
+    text-align: justify;
+} 
+.tituloTerciario{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+
+/* ESTILOS PÁGINA SERVICIOS */
+.tiposDeServicios{
+    width: 100%;
+    max-width: 1140px;
+}
+.tarjetaServicios{
+    width: 280px;
+    height: 360px;
+    margin:15px auto;
+    border-radius: 1px;
+    background-color: rgb(221, 221, 221);
+}
+.tarjetaServicios figure{
+    width: 250px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+/* .tarjetaServicios figure img{
+    width: 100%;
+    height: 100%;
+} */
+.tarjetaServicios h3{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.tarjetaServicios p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+
+/* ESTILOS PÁGINA CONOCENOS */
+.nuestrosTrabajos{
+    width: 90%;
+    margin: 20px auto;
+}
+.trabajosIndividuales{
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 20px auto;
+    position: relative;
+}
+.trabajosIndividuales img{
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+}
+.nuestrosTrabajosInfo{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.nuestrosTrabajosInfo h4{
+    width: 100%;
+    background-color: #000033;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+}
+.nuestrosTrabajosInfo p{
+    width: 100%;
+    background-color: #000033;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    position: relative;
+    top: 235px;
+}
+
+
+/* ESTILOS PÁGINA CONTACTO */
+.contactoTexto{
+    font-size: 1.5rem;
+}
+.textoFormulario{
+    font-size: 1.3rem;
+}
