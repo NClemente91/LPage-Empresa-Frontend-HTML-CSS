@@ -97,3 +97,8 @@ html{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+/* ESTILOS PÁGINA CONTACTO */
+.contactoTexto{
+    text-align: center;
+}
