@@ -255,7 +255,7 @@ footer p{
     align-items: center;
     border-radius: 50%;
 }
-.individuales h3,p{
+.individuales h3, .individuales p{
     text-align: center;
     margin: 5px auto;
 }
