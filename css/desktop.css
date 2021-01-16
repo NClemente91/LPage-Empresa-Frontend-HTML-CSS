@@ -38,6 +38,9 @@ button:hover{
 .equipoTextoDesktop{
     order: 1;
 }
+p.fraseInstitucional{
+    text-align: left;
+}
 .equipoImagenDesktop{
     order: 2;
 }

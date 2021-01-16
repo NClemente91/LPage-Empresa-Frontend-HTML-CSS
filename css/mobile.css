@@ -131,6 +131,7 @@ header{
 .trabajosRealizados{
     position: relative;
     z-index: 2;
+    background-color: #f2f2f2;
 }
 .trabajosRealizados__Titulo{
     width: 100%;
