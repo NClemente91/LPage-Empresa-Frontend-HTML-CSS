@@ -15,6 +15,10 @@ p, button{
     font-family: 'Lato', sans-serif;
     color: #333333;
 }
+button.btn.btn-primary{
+    background-color: #000033;
+    border: none;
+}
 h1 h2 h3 h4 h5 {
     font-family: 'Roboto Slab', serif;
 }
@@ -55,9 +59,6 @@ header{
 .navegacionLinks a{
     font-size: 1.5rem;
     text-transform: uppercase;
-}
-.linksActivos:hover {
-    transform: scale(1.15);
 }
 .letraBlanca {
     color: wheat;
@@ -164,7 +165,7 @@ header{
     padding-top: 35px;
     padding-bottom: 25px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     display: flex;
     justify-content: center;
     background-color: #f2f2f2;

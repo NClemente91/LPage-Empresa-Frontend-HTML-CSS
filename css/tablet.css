@@ -16,6 +16,9 @@ html{
     font-size: 1.4rem;
     text-transform: uppercase;
 }
+.linksActivos:hover {
+    transform: scale(1.15);
+}
 
 .seccionFondos p{
     width: 35%;
